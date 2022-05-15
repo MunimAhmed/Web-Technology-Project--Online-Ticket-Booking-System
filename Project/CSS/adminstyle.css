@@ -1,0 +1,410 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url("../Files/img2.jpg");
+  background-size: cover;
+  background-position: center;
+  font-family: sans-serif;
+}
+
+#header {
+  width: 100%;
+  height: 120px;
+  background: black;
+  color: white;
+  text-align: center;
+}
+
+#sidebar {
+  width: 300px;
+  height: 100%;
+  background: #3498db;
+  float: left;
+}
+
+#data {
+  min-height: 100hv;
+  background: #ecf0f1;
+}
+
+#adminlogo {
+  height: 80px;
+  width: 80px;
+  text-align: center;
+}
+
+#anchor {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 20px;
+  color: rgb(26, 1, 252);
+}
+#anchor:hover {
+  color: #cc1515;
+}
+
+#list {
+  font-weight: bold;
+  list-style-type: None;
+  padding: 20px;
+  border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+#list:hover {
+  background: rgb(20, 70, 151);
+  color: white;
+}
+
+#list2 {
+  border-radius: 50px;
+  font-weight: bold;
+  list-style-type: None;
+  padding: 20px;
+  border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+/* .main-body {
+  width: 100%;
+  margin-top: 70px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  padding: 40px 0;
+} */
+/* .main-body-panel {
+  width: 100%;
+  margin-top: 70px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0;
+} */
+
+.loginbox {
+  width: 320px;
+  min-height: 420px;
+  background: rgb(0, 0, 0);
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+}
+.regbox {
+  width: 700px;
+  height: 700px;
+  background: rgb(0, 0, 0);
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+}
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: calc(50% - 50px);
+}
+
+h1 {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+}
+
+h2 {
+  color: white;
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.loginbox p {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+.loginbox input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.loginbox input[type="text"],
+input[type="password"] {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+.loginbox input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #1d73b9;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.loginbox input[type="submit"]:hover {
+  cursor: pointer;
+  background: #19598f;
+  color: #000;
+}
+
+.loginbox a {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 20px;
+  color: darkgrey;
+}
+
+.loginbox a:hover {
+  color: #19598f;
+}
+
+.loginbox small {
+  display: inline-block;
+  padding-top: 5px;
+  visibility: hidden;
+  color: crimson;
+}
+
+.loginbox input.success {
+  border: 2px solid green;
+}
+.loginbox input.error {
+  border: 2px solid red;
+}
+
+.admin-reg-frorm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+  height: 400px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(5px);
+}
+
+.admin-reg-frorm {
+  width: auto;
+  height: auto;
+}
+
+.form-title {
+  color: white;
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+}
+
+.form-fields {
+  margin-top: 30px;
+  padding-top: 100px;
+}
+
+.form-field {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.form-field.select {
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.form-field.select label {
+  margin-right: 20px;
+}
+
+.form-field.select input {
+  margin-right: 5px;
+}
+.form-field.select span {
+  margin-right: 20px;
+}
+
+.form-field label {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.form-field input {
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  font-size: 15px;
+  outline: none;
+}
+
+.admin-reg-frorm input[type="submit"] {
+  width: 20%;
+  margin-left: 40%;
+  margin-right: 40%;
+  border-radius: 5px;
+  border: none;
+  padding: 10px 15px;
+  font-size: 15px;
+  outline: none;
+  background-color: #1d73b9;
+  color: white;
+  transition: 150ms;
+}
+
+.admin-reg-frorm input[type="submit"]:hover {
+  cursor: pointer;
+  background: #19598f;
+  color: #000;
+}
+
+.admin-reg-frorm input[type="reset"] {
+  width: 20%;
+  margin-left: 40%;
+  margin-right: 40%;
+  position: center;
+  border-radius: 5px;
+  border: none;
+  padding: 10px 15px;
+  font-size: 15px;
+  outline: none;
+  background-color: #e33f3f;
+  color: white;
+  transition: 150ms;
+}
+
+.admin-reg-frorm input[type="reset"]:hover {
+  cursor: pointer;
+  background: #e11515;
+  color: #000;
+}
+
+.admin-reg-frorm input {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 20px;
+  color: darkgrey;
+}
+
+.admin-reg-frorm input {
+  color: #19598f;
+}
+
+.admin-reg-frorm input {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 20px;
+  color: darkgrey;
+}
+
+.admin-reg-frorm input {
+  color: #19598f;
+}
+
+.admin-reg-frorm a {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 20px;
+  color: rgb(26, 1, 252);
+}
+
+.admin-reg-frorm a:hover {
+  color: #19598f;
+}
+
+.admin-reg-frorm p {
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 20px;
+  color: rgb(252, 1, 1);
+}
+
+.loginbox p2 {
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 20px;
+  color: rgb(252, 1, 1);
+}
+
+.form-control.success input {
+  border-color: #2ecc71;
+}
+
+.form-field.success input {
+  border-color: #2ecc71;
+}
+
+.form-control.error small {
+  color: #e74c3c;
+  visibility: visible;
+}
+
+.table {
+  border: 1px solid transparent;
+}
+
+.table th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.table th,
+td {
+  padding: 15px;
+  text-align: left;
+}
+
+.form-field small {
+  display: inline-block;
+  padding-top: 5px;
+  visibility: hidden;
+  color: crimson;
+}
+
+.form-field input.success {
+  border: 2px solid green;
+}
+.form-field input.error {
+  border: 2px solid red;
+}
+
+.searchbar {
+  display: flex;
+  justify-content: center;
+}
+.searchbar input {
+  width: 500px;
+  padding: 20 10px;
+  border-radius: 50px;
+}
+
+.login-field {
+  margin-bottom: 20px;
+}
+
+.login-field input {
+  margin-bottom: 0px;
+}
