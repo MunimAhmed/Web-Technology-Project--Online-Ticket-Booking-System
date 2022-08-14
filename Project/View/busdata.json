@@ -1,0 +1,67 @@
+[
+    {
+        "companyname": "Bus Company",
+        "licensenumber": "AE0145287DJ",
+        "firstName": "Mirza",
+        "lastName": "Asif",
+        "username": "Mirza",
+        "gender": "Male",
+        "designation": "Owner",
+        "Get Access AS": "  Editor",
+        "email": "mirza.tanvir50@gmail.com",
+        "password": "abcdefght",
+        "confirmpassword": "abcdefght"
+    },
+    {
+        "companyname": "1",
+        "licensenumber": "1",
+        "firstName": "l",
+        "lastName": "o",
+        "username": "l",
+        "gender": "Male",
+        "designation": "Manager",
+        "Get Access AS": "  Moderator",
+        "email": "l@gmail.com",
+        "password": "11",
+        "confirmpassword": "11"
+    },
+    {
+        "companyname": "zxcxzc",
+        "licensenumber": "",
+        "firstName": "",
+        "lastName": "",
+        "username": "munim.ah018",
+        "gender": null,
+        "designation": null,
+        "Get Access AS": "Please select Type Of Access Needed",
+        "email": "",
+        "password": "12345678",
+        "confirmpassword": ""
+    },
+    {
+        "companyname": "Durjoy Limited",
+        "licensenumber": null,
+        "firstName": "Durjoy",
+        "lastName": "Bardhan",
+        "username": "munim.ah018",
+        "gender": "Male",
+        "designation": null,
+        "Get Access AS": "Please select Type Of Access Needed",
+        "email": "durjoy@gmail.com",
+        "password": "123456789",
+        "confirmpassword": "123456789"
+    },
+    {
+        "companyname": "torongo",
+        "licensenumber": "erderedswe34",
+        "firstName": "mirza",
+        "lastName": "asif",
+        "username": "munim.ah018",
+        "gender": "Male",
+        "designation": "Manager",
+        "Get Access AS": "  Editor  Viewer",
+        "email": "mirza.tanvir50@gmail.com",
+        "password": "abcdefght",
+        "confirmpassword": "acdefght"
+    }
+]
